@@ -16,5 +16,6 @@ public class facebooklogin {
 		WebElement emailTextbox = driver.findElement(By.id("email"));
 		emailTextbox.sendKeys("sushmapraneeth9391@gmail.com");
 		 driver.findElement(By.id("pass")).sendKeys("invalid",Keys.ENTER);
+		 System.out.println("Facebook");
 	}
 }
