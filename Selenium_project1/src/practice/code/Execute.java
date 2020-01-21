@@ -15,6 +15,7 @@ public static void main(String[] args) {
 		WebElement searchTextbox = driver.findElement((By.name("q")));
 		searchTextbox.sendKeys("Java");
 		System.out.println("Text Field Set");
+		System.out.println("Text Field Set1");
 //		driver.close();
 		
 	}
